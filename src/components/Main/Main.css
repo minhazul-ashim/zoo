@@ -1,5 +1,15 @@
 .main-section {
 
+    background-image: url(../../images/jungle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-overlay {
+
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    background: rgba(128, 128, 128, 0.699);
+    padding: 4%;
 }

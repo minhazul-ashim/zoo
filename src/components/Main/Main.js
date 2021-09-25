@@ -8,9 +8,11 @@ import Budget from '../Budget/Budget';
 const Main = () => {
     return (
         <div className='main-section'>
-            <Selection></Selection>
-            <Animals></Animals>
-            <Budget></Budget>
+            <div className="bg-overlay">
+                <Selection></Selection>
+                <Animals></Animals>
+                <Budget></Budget>
+            </div>
         </div>
     );
 };

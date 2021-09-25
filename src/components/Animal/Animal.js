@@ -11,7 +11,7 @@ const Animal = (props) => {
                 <img className='img' src={img} alt="" />
             </div>
             <div className="animal-info">
-                <h4>Name: {name}</h4>
+                <h3 className='animal-name'>{name}</h3>
                 <p>Kingdom: {kingdom}</p>
                 <p>Lifespan: {lifespan}</p>
                 <p>Food: {foodHabit}</p>
