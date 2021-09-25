@@ -1,16 +1,30 @@
 .header {
 
     text-align: center;
-    /* background-color: rgb(168, 186, 202); */
     background-image: url(../../images/mammals-400x300.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 40%;
+    background-position-y: 50%;
 }
 
 .header-text {
 
-    background-color: rgba(3, 20, 36, 0.678);
+    background-color: rgba(3, 20, 36, 0.753);
     color: white;
     padding: 5%;
+}
+
+.header-title {
+
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    background-image: linear-gradient(to right,  rgb(217, 255, 0), rgb(0, 252, 210), blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-budget {
+
+    color: tomato;
+    letter-spacing: 2px;
 }
