@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Lion",
+        "kingdom": "Mammal",
+        "foodHabit": "Carnivorous",
+        "lifespan": "10-12 years",
+        "budget": 25000,
+        "img": "https://images.unsplash.com/photo-1511216113906-8f57bb83e776?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Tiger",
+        "kingdom": "Mammal",
+        "foodHabit": "Carnivorous",
+        "lifespan": "8-10 years",
+        "budget": 20000,
+        "img": "https://media.istockphoto.com/photos/tiger-portrait-picture-id949472768?s=612x612"
+    },
+    {
+        "name": "Bear",
+        "kingdom": "Mammal",
+        "foodHabit": "Omnivorous",
+        "lifespan": "20-30 years",
+        "budget": 15000,
+        "img": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Panda",
+        "kingdom": "Mammal",
+        "foodHabit": "Harbivorous",
+        "lifespan": "25-30 years",
+        "budget": 50000,
+        "img": "https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFuZGF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Vulture",
+        "kingdom": "Animalia",
+        "foodHabit": "Scavenger",
+        "lifespan": "30 years",
+        "budget": 1000,
+        "img": "https://images.unsplash.com/photo-1558907530-a0827a86fb4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dnVsdHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Falcon",
+        "kingdom": "Animalia",
+        "foodHabit": "Carnivorous",
+        "lifespan": "25 years",
+        "budget": 1500,
+        "img": "https://images.unsplash.com/photo-1583340107401-989dbd94860a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFsY29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Wolf",
+        "kingdom": "Mammal",
+        "foodHabit": "Carnivorous",
+        "lifespan": "15 years",
+        "budget": 10000,
+        "img": "https://images.unsplash.com/photo-1588167056547-c183313da47c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29sZnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Python",
+        "kingdom": "Reptilia",
+        "foodHabit": "Carnivorous",
+        "lifespan": "18-20 years",
+        "budget": 500,
+        "img": "https://images.unsplash.com/photo-1613459791238-f06f54411997?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9uJTIwc25ha2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Giraffe",
+        "kingdom": "Mammal",
+        "foodHabit": "Herbivorous",
+        "lifespan": "25-30 years",
+        "budget": 60000,
+        "img": "https://images.unsplash.com/photo-1538127426967-75a6c73f6d20?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lyYWZmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Zebra",
+        "kingdom": "Mammal",
+        "foodHabit": "Herbivorous",
+        "lifespan": "10-15 years",
+        "budget": 15000,
+        "img": "https://images.unsplash.com/photo-1501706362039-c06b2d715385?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8emVicmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Comodo Dragon",
+        "kingdom": "Reptile",
+        "foodHabit": "Scavenger",
+        "lifespan": "5-10 years",
+        "budget": 300,
+        "img": "https://images.unsplash.com/photo-1470298961567-3c24e6d6a086?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tb2RvJTIwZHJhZ29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Turtle",
+        "kingdom": "Chordate",
+        "foodHabit": "Herbivorous",
+        "lifespan": "50-100 years",
+        "budget": 2500,
+        "img": "https://images.unsplash.com/photo-1521217155737-0d5632e9813f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dHVydGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Horse",
+        "kingdom": "Mammal",
+        "foodHabit": "Herbivorous",
+        "lifespan": "25-30 years",
+        "budget": 3000,
+        "img": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9yc2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Panther",
+        "kingdom": "Mammal",
+        "foodHabit": "Carnivorous",
+        "lifespan": "8-10 years",
+        "budget": 100000,
+        "img": "https://images.unsplash.com/photo-1557692538-9564c4b2cd13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBwYW50aGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    }
+]
