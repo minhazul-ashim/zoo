@@ -10,6 +10,13 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 5px 5px 20px lightgray;
+    transition: all 0.3s;
+}
+
+.animal-box:hover {
+
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px rgb(156, 154, 154);
 }
 
 .img {
@@ -24,6 +31,12 @@
     text-align: center;
 }
 
+.animal-budget {
+
+    color: crimson;
+    font-weight: 700;
+}
+
 .animal-info button {
 
     background: rgba(0, 0, 255, 0.555);
@@ -32,6 +45,13 @@
     border-radius: 10px;
     cursor: pointer;
     color: white;
+    transition: all 0.5s;
+    margin-top: 5%;
+}
+
+.animal-info button:hover {
+
+    background: rgba(0, 0, 255, 0.801);
 }
 
 @media only screen and (max-width: 992px)  {

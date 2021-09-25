@@ -15,7 +15,7 @@ const Animal = (props) => {
                 <p>Kingdom: {kingdom}</p>
                 <p>Lifespan: {lifespan}</p>
                 <p>Food: {foodHabit}</p>
-                <p>Budget: {budget}</p>
+                <p className='animal-budget'>Budget: {budget}</p>
                 <button>Add</button>
             </div>
         </div>
