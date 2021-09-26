@@ -1,9 +1,14 @@
 import './Animal.css'
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
+
 
 const Animal = (props) => {
 
-    const { name, kingdom, lifespan, budget, foodHabit, img } = props.data
+    const { name, kingdom, lifespan, budget, foodHabit, img } = props.data;
+
+    const icon = <FontAwesomeIcon icon={faPlus} />
 
     const clickFunc = props.func;
 
@@ -18,7 +23,7 @@ const Animal = (props) => {
                 <p>Lifespan: {lifespan}</p>
                 <p>Food: {foodHabit}</p>
                 <p className='animal-budget'>Budget: {budget}</p>
-                <button onClick={() => clickFunc(budget, name)}>Add</button>
+                <button onClick={() => clickFunc(budget, name)}>{icon} Add</button>
             </div>
         </div>
     );
