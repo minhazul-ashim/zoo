@@ -18,7 +18,7 @@ const Animal = (props) => {
                 <p>Lifespan: {lifespan}</p>
                 <p>Food: {foodHabit}</p>
                 <p className='animal-budget'>Budget: {budget}</p>
-                <button onClick={() => clickFunc(budget)}>Add</button>
+                <button onClick={() => clickFunc(budget, name)}>Add</button>
             </div>
         </div>
     );

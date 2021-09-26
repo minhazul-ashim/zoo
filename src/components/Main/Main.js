@@ -11,6 +11,8 @@ const Main = () => {
 
     const [allBudget, setBudget] = useState([]);
 
+    const [animalArr, setAnimalArr] = useState([]);
+
     useEffect(() => {
 
         fetch('./animals.JSON')
@@ -18,16 +20,18 @@ const Main = () => {
             .then(data => setAnimals(data))
     }, [])
 
-    const handleClick = (budget) => {
+    const handleClick = (budget, name) => {
 
         const newBudget = [...allBudget, budget]
         setBudget(newBudget);
+        const newAnimal = [...animalArr, name];
+        setAnimalArr(newAnimal);
     }
 
     return (
         <div className='main-section'>
             <div className="bg-overlay">
-                <Selection></Selection>
+                <Selection data={animalArr}></Selection>
                 <Animals data={animals} func={handleClick}></Animals>
                 <Budget data={allBudget}></Budget>
             </div>

@@ -1,9 +1,15 @@
 import React from 'react';
 
-const Selection = () => {
+const Selection = (props) => {
+
+    const animals = props.data;
+
     return (
         <div>
-            <h2>This is selection section</h2>
+            <h1>Added</h1>
+            {
+                animals.map(animal => <h2>{animal}</h2>)
+            }
         </div>
     );
 };
