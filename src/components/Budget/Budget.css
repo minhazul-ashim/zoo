@@ -4,8 +4,9 @@
     border: 1px solid rgb(138, 135, 135);
     padding: 10%;
     margin-top: 10%;
-    color: white;
+    color: rgb(211, 210, 210);;
     border-radius: 10px;
+    background: rgba(0, 200, 207, 0.219);
 }
 
 .budget-cost {
@@ -15,11 +16,12 @@
 
 .all-selected {
 
-    color: white;
+    color: rgb(211, 210, 210);;
     margin-top: 10%;
     border: 1px solid grey;
     padding: 10%;
     border-radius: 10px;
+    background: rgba(0, 200, 207, 0.219);
 }
 
 .select-title {
