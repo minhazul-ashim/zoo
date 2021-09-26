@@ -1,22 +1,16 @@
-import React, { useEffect, useState } from 'react';
 import Animal from '../Animal/Animal';
 import './Animals.css'
 
-const Animals = () => {
+const Animals = (props) => {
 
-    const [animals, setAnimals] = useState([])
+    const animals = props.data;
 
-    useEffect(() => {
-
-        fetch('./animals.JSON')
-            .then(res => res.json())
-            .then(data => setAnimals(data))
-    }, [])
+    const eventFunc = props.func;
 
     return (
         <div className='animals-container'>
             {
-                animals.map(animal => <Animal key={animal.name} data={animal}></Animal>)
+                animals.map(animal => <Animal key={animal.name} data={animal} func={eventFunc}></Animal>)
             }
         </div>
     );

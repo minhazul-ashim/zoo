@@ -4,7 +4,9 @@ import React from 'react';
 const Animal = (props) => {
 
     const { name, kingdom, lifespan, budget, foodHabit, img } = props.data
-    console.log(props.data)
+
+    const clickFunc = props.func;
+
     return (
         <div className='animal-box'>
             <div className="img-div">
@@ -16,7 +18,7 @@ const Animal = (props) => {
                 <p>Lifespan: {lifespan}</p>
                 <p>Food: {foodHabit}</p>
                 <p className='animal-budget'>Budget: {budget}</p>
-                <button>Add</button>
+                <button onClick={() => clickFunc(budget)}>Add</button>
             </div>
         </div>
     );
