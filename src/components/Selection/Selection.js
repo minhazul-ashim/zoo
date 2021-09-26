@@ -10,7 +10,7 @@ const Selection = (props) => {
             <div className="all-selected">
                 <h1 className='select-title'>Added</h1>
                 {
-                    animals.map(animal => <h2>{animal}</h2>)
+                    animals.map(animal => <h2 className='selected-animal' key={Math.random() * 10}>{animal}</h2>)
                 }
             </div>
         </div>
