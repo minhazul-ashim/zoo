@@ -1,6 +1,8 @@
 import Animal from '../Animal/Animal';
 import './Animals.css'
 
+
+//This component receives the individual animal's data as the props and a click handler which is passed to child components;
 const Animals = (props) => {
 
     const animals = props.data;

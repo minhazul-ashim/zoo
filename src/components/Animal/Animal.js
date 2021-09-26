@@ -3,7 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
-
+//This component creates individual card for each animal and shows their data; The props are destructured and passed in jsx elements;
 const Animal = (props) => {
 
     const { name, kingdom, lifespan, budget, foodHabit, img } = props.data;

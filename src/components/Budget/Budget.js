@@ -1,6 +1,8 @@
 import React from 'react';
 import './Budget.css'
 
+
+//This component sets the information in budget and selected animals section. The props it receives are the individual animals names and their annual budget;
 const Budget = (props) => {
 
     const budgetArr = props.budget;

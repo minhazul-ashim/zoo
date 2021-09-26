@@ -2,6 +2,7 @@ import './Footer.css';
 
 import React from 'react';
 
+//These are the codes of simple  footer component;
 const Footer = () => {
     return (
         <div className='footer'>
