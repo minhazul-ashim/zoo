@@ -9,7 +9,7 @@
 .bg-overlay {
 
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 4fr 1fr;
     background: rgba(37, 37, 37, 0.89);
     padding: 4%;
 }

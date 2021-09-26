@@ -31,9 +31,8 @@ const Main = () => {
     return (
         <div className='main-section'>
             <div className="bg-overlay">
-                <Selection data={animalArr}></Selection>
                 <Animals data={animals} func={handleClick}></Animals>
-                <Budget data={allBudget}></Budget>
+                <Budget budget={allBudget} name={animalArr}></Budget>
             </div>
         </div>
     );
