@@ -17,4 +17,12 @@
 
     color: white;
     margin-top: 10%;
+    border: 1px solid grey;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.select-title {
+
+    margin-bottom: 10%;
 }

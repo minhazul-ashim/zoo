@@ -1,7 +1,5 @@
 import './Main.css'
-
 import React, { useEffect, useState } from 'react';
-import Selection from '../Selection/Selection';
 import Animals from '../Animals/Animals';
 import Budget from '../Budget/Budget';
 
