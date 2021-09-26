@@ -4,12 +4,12 @@
     background-image: url(../../images/mammals-400x300.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 50%;
+    background-position-y: 55%;
 }
 
 .header-text {
 
-    background-color: rgba(3, 20, 36, 0.753);
+    background-color: rgba(3, 20, 36, 0.842);
     color: white;
     padding: 5%;
 }

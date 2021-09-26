@@ -110,5 +110,13 @@
         "lifespan": "8-10 years",
         "budget": 100000,
         "img": "https://images.unsplash.com/photo-1557692538-9564c4b2cd13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBwYW50aGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "name": "Fox",
+        "kingdom": "Mammal",
+        "foodHabit": "Carnivorous",
+        "lifespan": "8-10 years",
+        "budget": 10000,
+        "img": "https://images.unsplash.com/photo-1588167056547-c183313da47c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29sZnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     }
 ]
